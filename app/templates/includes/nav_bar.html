@@ -34,11 +34,10 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a class="active" href="home">Home</a></li>
-  <li><a href="login">Login</a></li>
+  <li><a class="active" href="{{ url_for('homep') }}">Home</a></li>
+  <li><a href="{{ url_for('log') }}">Login</a></li>
   <li><a href="register">Register</a></li>
   <li><a href="about">About</a></li>
 </ul>
-
 </body>
 </html>
